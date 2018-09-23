@@ -1,0 +1,32 @@
+{
+  "name": "blockchain-api",
+  "version": "1.0.0",
+  "description": "A Blockchain API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tapasweni-pathak/blockchain-api.git"
+  },
+  "keywords": [
+    "blockchain",
+    "API"
+  ],
+  "author": "Tapasweni Pathak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tapasweni-pathak/blockchain-api/issues"
+  },
+  "homepage": "https://github.com/tapasweni-pathak/blockchain-api#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "level": "^4.0.0",
+    "tslint-config-airbnb": "^5.11.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0"
+  }
+}
