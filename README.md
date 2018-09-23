@@ -1,9 +1,7 @@
 Blockchain API
 ==============
 
-This implements blockchain and allows the user to interact with the db data using HTTP
-requests.
-
+A blockchain API.
 
 ## Setup Instructions
 * Clone the repository
@@ -17,29 +15,31 @@ requests.
 
 ## Features
 
+* Get blockchain info (GET)
+  * `/blockchain/info`
 * Add block (POST)
-  * `/block`
+  * `/blockchain/add/block`
 * Add node (POST)
-  * `/block/:data`
+  * `/blockchain/block/:data`
 * Get block by address (GET)
-  * `/block/:address`
+  * `/blockchain/block/:address`
 * Get block by index (GET)
-  * `/block/:id`
+  * `/blockchain/block/:id`
 * Add transaction (POST)
-  * `/block/:transact`
+  * `/blockchain/transaction/new`
 * Validate blockchain (GET)
-  * `/block/validate_blockchain`
+  * `/blockchain/validate`
 * Delete block by address (DELETE)
-  * `/block/delete::address`
+  * `/blockchain/delete/:address`
 * Delete all blocks from db (DELETE)
-  * `/block/deleteblocks`
+  * `/blockchain/deleteblocks`
 
 ## Usage
 
 Find more information and example curl commands [here](https://blockchain-api.readthedocs.io/en/latest/).
 
 
-#### This uses:
+Uses:
 
 * [Express.js](http://expressjs.com/)
 * [LevelDB](http://leveldb.org/)
