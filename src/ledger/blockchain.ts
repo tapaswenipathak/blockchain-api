@@ -27,7 +27,7 @@ class blockchain{
   }
 
   async maxIndex(){
-    return this.chain.dataNumber();
+    return this.chain.getBlockIndex();
   }
 
   addNode(address: string): void{
