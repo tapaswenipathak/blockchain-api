@@ -5,10 +5,12 @@ An implementation of Blockchain API. This implements blockchain and allows the u
 to interact with the db using HTTP requests.
 
 
-## Setup Instructions
+Setup Instructions
+==================
+
 * Clone the repository
-* Install using: `nvm use && npm i`
-* Run using: `npm start`
+* Install using: .. code:: nvm use && npm i`
+* Run using: .. code:: npm start
 
 ## Table of Contents
 
