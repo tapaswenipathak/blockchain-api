@@ -36,10 +36,11 @@ to interact with the db using HTTP requests.
 
 ## Usage
 
-Find more information and example curl commands [here](https://blockchain-api.readthedocs.io/en/latest/).
+Find more information and example curl commands [here](https://readthedocs.org/projects/blockchain-api/).
 
 
 #### This uses:
 
-* [Express.js](http://expressjs.com/)
-* [LevelDB](http://leveldb.org/)
+* Express
+* LevelDB
+
