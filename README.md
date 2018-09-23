@@ -36,10 +36,10 @@ requests.
 
 ## Usage
 
-Find more information and example curl commands [here](https://readthedocs.org/projects/blockchain-api/).
+Find more information and example curl commands [here](https://blockchain-api.readthedocs.io/en/latest/).
 
 
 #### This uses:
 
-* Express
-* LevelDB
+* [Express.js](http://expressjs.com/)
+* [LevelDB](http://leveldb.org/)
