@@ -6,9 +6,11 @@ import dbconnect from './src/db_connection';
 const blockchain = new blockchain();
 
 
-app.get('/', (request, response) => res.sendFile(`${__dirname}/index.html`));
+app.get('/', (request: Request, response: Response) => response.sendFile(`${__dirname}/index.html`));
 
-app.get('/block/:index', async(req, res) => {
+// /block/:index
+
+async function getBlockWithID(request: Request, response: Response): Promise<any> {
   try{
     let index = await blockchain.getBlockIndex();
     if (index == -1){
@@ -26,3 +28,5 @@ app.get('/block/:index', async(req, res) => {
     response.send(`Error: ${error}`);
   }
 });
+
+
