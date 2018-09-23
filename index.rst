@@ -9,8 +9,8 @@ Setup Instructions
 ==================
 
 * Clone the repository
-* Install using: .. code:: nvm use && npm i`
-* Run using: .. code:: npm start
+* Install using:: nvm use && npm i
+* Run using:: npm start
 
 ## Table of Contents
 
