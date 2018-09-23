@@ -1,4 +1,4 @@
-import * as express from 'express;
+import * as express from 'express';
 import * as bodyParser from 'body-parser';
 import blockchain from './src/ledger/blockchain';
 import block from './src/ledger/block';
