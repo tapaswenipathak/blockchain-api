@@ -9,8 +9,10 @@ Setup Instructions
 ==================
 
 * Clone the repository
-* Install using:: nvm use && npm i
-* Run using:: npm start
+* Install using::
+  nvm use && npm i
+* Run using::
+  npm start
 
 ## Table of Contents
 
@@ -19,21 +21,21 @@ Setup Instructions
 
 ## Features
 
-* Add block (POST)
+* Add block (POST)::
   * `/block`
-* Add node (POST)
+* Add node (POST)::
   * `/block/:data`
-* Get block by address (GET)
+* Get block by address (GET)::
   * `/block/:address`
-* Get block by index (GET)
+* Get block by index (GET)::
   * `/block/:id`
-* Add transaction (POST)
+* Add transaction (POST)::
   * `/block/:transact`
-* Validate blockchain (GET)
+* Validate blockchain (GET)::
   * `/block/validate_blockchain`
-* Delete block by address (DELETE)
+* Delete block by address (DELETE)::
   * `/block/delete::address`
-* Delete all blocks from db (DELETE)
+* Delete all blocks from db (DELETE)::
   * `/block/deleteblocks`
 
 ## Usage
