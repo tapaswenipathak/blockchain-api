@@ -29,4 +29,24 @@ async function getBlockWithID(request: Request, response: Response): Promise<any
   }
 });
 
+// /block:address
+
+async function addBlock(request: Request, response: Response): Promise<any> {
+  try {
+    let requestBody = request.body.body;
+    if(requestBody){
+      let block = await blockchain.addBlock(new Block(requestBody));
+      response.status(200);
+      response.setHeader('Content-Type', 'application/json');
+      response.send(JSON.stringify(block));
+    }
+    else{
+      response.status(500);
+      response.send('Error: POST call needs to have a body');
+    }
+  } catch(error) {
+    response.status(500);
+    response.send(`Error: ${error}`);
+  }
+});
 
