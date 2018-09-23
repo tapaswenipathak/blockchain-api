@@ -10,41 +10,48 @@ Setup Instructions
 
 * Clone the repository
 * Install using::
-  nvm use && npm i
+
+    nvm use && npm i
+
 * Run using::
-  npm start
 
-## Table of Contents
+    npm start
 
-* [Features](#features)
-* [Usage](#usage)
-
-## Features
+Features
+========
 
 * Add block (POST)::
-  * `/block`
+
+    /block
+
 * Add node (POST)::
-  * `/block/:data`
+
+    /block/:data
+
 * Get block by address (GET)::
-  * `/block/:address`
+
+    /block/:address
+
 * Get block by index (GET)::
-  * `/block/:id`
+
+    /block/:id
+
 * Add transaction (POST)::
-  * `/block/:transact`
+
+    /block/:transact
+
 * Validate blockchain (GET)::
-  * `/block/validate_blockchain`
+
+    /block/validate_blockchain
+
 * Delete block by address (DELETE)::
-  * `/block/delete::address`
+
+    /block/delete::address
 * Delete all blocks from db (DELETE)::
-  * `/block/deleteblocks`
 
-## Usage
+    /block/deleteblocks
 
-Find more information and example curl commands [here](https://readthedocs.org/projects/blockchain-api/).
+CURL commands
+=============
 
-
-#### This uses:
-
-* Express
-* LevelDB
 
